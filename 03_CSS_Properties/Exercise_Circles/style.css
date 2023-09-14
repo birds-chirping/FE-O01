@@ -1,0 +1,39 @@
+:root {
+  --circle-count: 8;
+  --max-width: 500px;
+}
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+[class^="circle"] {
+  border-radius: 50%;
+  padding: calc(var(--max-width) / (2 * var(--circle-count)));
+}
+
+/* colors */
+.circle1 {
+  background-color: mediumblue;
+}
+.circle2 {
+  background-color: blueviolet;
+}
+.circle3 {
+  background-color: lightseagreen;
+}
+.circle4 {
+  background-color: palegoldenrod;
+}
+.circle5 {
+  background-color: pink;
+}
+.circle6 {
+  background-color: mediumaquamarine;
+}
+.circle7 {
+  background-color: magenta;
+}
+.circle8 {
+  background-color: #ffc14d;
+}
